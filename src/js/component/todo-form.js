@@ -1,3 +1,11 @@
+/********************************************************************************/
+/* Fecha Creación:  08 Marzo 2021.                                              */
+/* Autor:           Iván Fonseca Castro                                         */
+/*                                                                              */
+/* Descripción:     Archivo para crear componente que se utiliza como           */
+/*                  formulario para insertar y modificar tareas.                */
+/********************************************************************************/
+
 import React, { useState, useEffect, useRef } from "react";
 import PropType from "prop-types";
 
@@ -8,7 +16,7 @@ export default function TodoForm(props) {
 
 	useEffect(() => {
 		inputRef.current.focus();
-	});
+	}, []);
 
 	const handleChange = e => {
 		setInput(e.target.value);
@@ -40,7 +48,7 @@ export default function TodoForm(props) {
 							onChange={handleChange}
 							ref={inputRef}></input>
 						<div className="input-group-append">
-							<button type="button" className="btn btn-success">
+							<button type="submit" className="btn btn-success">
 								Actualizar Tarea
 							</button>
 						</div>
@@ -57,7 +65,7 @@ export default function TodoForm(props) {
 							onChange={handleChange}
 							ref={inputRef}></input>
 						<div className="input-group-append">
-							<button type="button" className="btn btn-success">
+							<button type="submit" className="btn btn-success">
 								Agregar Tarea
 							</button>
 						</div>

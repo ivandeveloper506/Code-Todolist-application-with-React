@@ -1,3 +1,10 @@
+/********************************************************************************/
+/* Fecha Creación:  08 Marzo 2021.                                              */
+/* Autor:           Iván Fonseca Castro                                         */
+/*                                                                              */
+/* Descripción:     Archivo para crear componente que lista todas las tareas.   */
+/********************************************************************************/
+
 import React, { useState } from "react";
 import TodoForm from "./todo-form.js";
 import TodoAdd from "./todo-add.js";

@@ -1,3 +1,11 @@
+/********************************************************************************/
+/* Fecha Creación:  08 Marzo 2021.                                              */
+/* Autor:           Iván Fonseca Castro                                         */
+/*                                                                              */
+/* Descripción:     Archivo para crear componente que se utiliza para dibujar   */
+/*                  cada fila de las tareas que se van agregando.               */
+/********************************************************************************/
+
 import React, { useState } from "react";
 import TodoForm from "./todo-form.js";
 

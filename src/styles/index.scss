@@ -1,7 +1,14 @@
+/********************************************************************************/
+/* Fecha Creación:  08 Marzo 2021.                                              */
+/* Autor:           Iván Fonseca Castro                                         */
+/*                                                                              */
+/* Descripción:     Archivo principal para controlar los estilos del sitio web. */
+/********************************************************************************/
+
 @import "~bootstrap/scss/bootstrap.scss";
 
 body{
-background: rgb(79, 98, 142);
+    background: rgb(79, 98, 142);
 }
 
 .todoTopClass{
@@ -13,11 +20,11 @@ background: rgb(79, 98, 142);
 
 h1{
     font-size: 75px;
-    // color: rgb(6, 21, 57);
     color: white;
     font-weight: 700px;
 }
 
+// Clase del campo de entrada de los datos.
 .inputTodoClass{
     display: flex;
     text-align: center;
@@ -29,6 +36,7 @@ h1{
     flex-direction: column;
 }
 
+// Clase para dibujar las filas de las tareas.
 .todoRow{
     background: rgb(255, 227, 170);
     border: solid 1px lightgrey;
@@ -37,6 +45,8 @@ h1{
     border-radius: 5px;
 }
 
+// Clase para marcar los registros cuando se completan las tareas,
+// esta responde al dar clic sobre las filas de las tareas.
 .todoRowComplete{
     background:rgb(212, 177, 106);
     border: solid 1px lightgrey;
@@ -50,6 +60,7 @@ h1{
     width: 91% !important;
 }
 
+// Clase para los botones de eliminar y editar.
 .optionButtonClass{
     justify-content: left;
 }
