@@ -51,6 +51,18 @@ export default function TodoList() {
 
 	return (
 		<div>
+			<div className="container mt-3">
+				<div className="row">
+					<h3>
+						<span class="badge badge-primary ml-4">
+							Total de Tareas{" "}
+							<span class="badge badge-warning">
+								{todos.length}
+							</span>
+						</span>
+					</h3>
+				</div>
+			</div>
 			<div className="container todoTopClass">
 				<div className="row">
 					<h1>LISTA DE TAREAS</h1>
