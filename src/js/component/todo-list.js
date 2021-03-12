@@ -54,9 +54,9 @@ export default function TodoList() {
 			<div className="container mt-3">
 				<div className="row">
 					<h3>
-						<span class="badge badge-primary ml-4">
+						<span className="badge badge-primary ml-4">
 							Total de Tareas{" "}
-							<span class="badge badge-warning">
+							<span className="badge badge-warning">
 								{todos.length}
 							</span>
 						</span>
